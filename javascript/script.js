@@ -1,8 +1,6 @@
-var newQuest = document.getElementById('addQuest').innerHTML;
 
 function ajoutQuestion() {
 
-
-
+document.getElementById('addQuest').innerHTML += "<input type='text'>";
 	
 }
