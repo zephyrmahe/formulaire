@@ -8,10 +8,11 @@ function ajoutQuestion() {
 	
 
 	i++;
+	j++;
 }
 
 function ajoutRadio(elem){
-		$(elem).append('<input type="radio" name="rad'+j+'[]"><br>');
-		j++;
+		$(elem).append('<input type="radio" name="rad'+j+'[]"><input type="text"><br>');
+		
 	}
 
