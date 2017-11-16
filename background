@@ -1,0 +1,22 @@
+<head>
+ <style> 
+
+	div.galleryHead img {
+    width: 100%;
+    height: auto;
+    }
+
+</style>
+
+</head>
+
+<body>
+
+ <div class="galleryHead">
+	<a>
+    <img src="Images/ChampsTournesol.jpg" alt="ChampsTournesol">
+    <!-- <link rel="stylesheet" href="IMAGES/image.jpg"> -->
+    </a>
+	</div>
+
+</body>
