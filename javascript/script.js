@@ -4,8 +4,8 @@ var j = 1;
 function ajoutQuestion() {
 
 	$('#addQuest').append("<div id='val"+i+"'><input type='text' placeholder='la question' id='question"+i+"'><br>"
-	 + "<button onclick=\"ajoutRadio('#val"+i+"');\">ajouter une option</button>"
-	 + "<button onclick='suppQuestion(val"+i+");'>supprimer cette question</button><br></div><br>");
+	 + "<button class='btn btn-outline-primary' onclick=\"ajoutRadio('#val"+i+"');\">ajouter une option</button>"
+	 + "<button class='btn btn-outline-danger' onclick='suppQuestion(val"+i+");'>supprimer cette question</button><br></div><br>");
 	
 
 	i++;
