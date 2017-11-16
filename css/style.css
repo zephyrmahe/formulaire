@@ -8,5 +8,14 @@ h1 {
     text-shadow: 2px 2px black;
 }
 	
-	 
-	
+
+#addQuest {
+    text-align: center;
+}   
+input {
+    width: 30%;
+} 
+#bouton1 {
+
+    text-align: center;
+}
