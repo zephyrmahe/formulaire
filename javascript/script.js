@@ -1,10 +1,18 @@
 
 var i = 1;
-
+var j = 1;
 function ajoutQuestion() {
 
-	$('#addQuest').append("<div><input type='text' placeholder='la question' id='question"+i+"'><br>"
-	 + "<input type='radio'>oui <br> <input type='radio'>non</div>");
+	$('#addQuest').append("<div id='val"+i+"'><input type='text' placeholder='la question' id='question"+i+"'><br>"
+	 + "<button onclick=\"ajoutRadio('#val"+i+"');\">ajouter une option</button><br></div>");
+	
 
 	i++;
+	j++;
 }
+
+function ajoutRadio(elem){
+		$(elem).append('<input type="radio" name="rad'+j+'[]"><input type="text"><br>');
+		
+	}
+
