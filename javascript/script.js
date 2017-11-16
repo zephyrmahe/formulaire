@@ -13,7 +13,7 @@ function ajoutQuestion() {
 }
 
 function ajoutRadio(elem){
-		$(elem).append('<input type="radio" name="rad'+j+'[]"><input type="text"><br>');
+		$(elem).append('<input type="radio" class="onTouchePas" name="rad'+j+'[]"><input type="text"><br>');
 		
 	}
 
