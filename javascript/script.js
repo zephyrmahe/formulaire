@@ -21,7 +21,7 @@ function ajoutRadio(elem, radId){
 		.append(
 			'<div id="option'+valRad+'"><input type="radio" class="onTouchePas" name="rad'+radId+'">'
 			+ '<input type="text" placeholder="choix de reponse">'
-			+ '<button class="btn btn-danger" title="supprimer cette option" onclick="suppOption(option'+valRad+');">'
+			+ '<button class="btn-danger" title="supprimer cette option" onclick="suppOption(option'+valRad+');">'
 			+'supprimer l\'option</button><br></div>'
 			);
 		valRad++;
@@ -32,7 +32,7 @@ function ajoutRadio(elem, radId){
 		.append(
 			'<div id="option'+valRad+'"><input type="checkbox" class="onTouchePas" name="rad'+radId+'">'
 			+ '<input type="text" placeholder="choix de reponse">'
-			+ '<button class="btn btn-danger" title="supprimer cette option" onclick="suppOption(option'+valRad+');">'
+			+ '<button class="btn-danger" title="supprimer cette option" onclick="suppOption(option'+valRad+');">'
 			+'supprimer l\'option</button><br></div>'
 			);
 		valRad++;
