@@ -1,5 +1,5 @@
 body {
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     text-align: center;
     background-image: url("../image/background1.jpg");
 
