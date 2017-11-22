@@ -1,0 +1,35 @@
+body {
+    background-repeat: no-repeat;
+    text-align: center;
+    background-image: url("../image/blanccristal.jpg");
+    
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    font-family: magneto, serif;
+    color: darkgoldenrod;
+}
+
+    
+
+#addQuest {
+    margin: 0 15% 0 15%;
+    text-align: center;
+
+}   
+input {
+    width: 40%;
+    text-align: center;
+} 
+#bouton1 {
+
+    text-align: center;
+}
+input.onTouchePas {
+    width: 2%;
+}
+
