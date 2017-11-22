@@ -6,10 +6,10 @@ function ajoutQuestion() {
 	$('#addQuest')
 	.append(
 		"<div id='val"+valeur+"'><br><input type='text' placeholder='Votre question' id='question"+valeur+"'><br>"
-	 	+ "<button class='btn btn-outline-primary' onclick=\"ajoutRadio('#val"+valeur+"', "+valeur+");\">ajouter une option</button>"
-	 	+ "<button class='btn btn-outline-secondary' onclick=\"ajoutCheck('#val"+valeur+"', "+valeur+");\">ajouter un choix multiple</button>"
-	 	+ "<button class='btn btn-outline-danger' title='supprimer cette question' onclick='suppQuestion(val"+valeur+");'>"
-	 	+"supprimer cette question</button><br></div>"
+	 	+ "<input type='button' class='btn btn-outline-primary' onclick=\"ajoutRadio('#val"+valeur+"', "+valeur+" );\" value='ajouter une option'>"
+	 	+ "<input type='button' class='btn btn-outline-secondary' onclick=\"ajoutCheck('#val"+valeur+"', "+valeur+");\" value='ajouter un choix multiple'>"
+	 	+ "<input type='button' class='btn btn-outline-danger' title='supprimer cette question' onclick='suppQuestion(val"+valeur+");'"
+	 	+"value='supprimer cette question'><br></div>"
 	 );
 	
 	valeur++;
