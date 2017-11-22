@@ -12,12 +12,14 @@
 <body>
 	
 	<h1><a href="index.html">~</a>Formulaire client<a href="indexbgV2.html">~</a></h1>
-	<button id="validForm" class="btn btn-info" onclick="valider();">Valider le formulaire</button>
+	<form action="php/formulaire.php" onsubmit="return" method="post"><div><button type="submit" id="validForm" class="btn btn-info" onclick="valider();">Valider le formulaire</button>
 	<div id="addQuest">
 	</div>
 	<div id="bouton1">
 	<button class="btn btn-outline-success" onclick="ajoutQuestion();">ajouter une question</button>
 	</div>
+	</div>
+	</form>
 
 <script src="javascript/jquery-3.2.1.min.js"></script>
  

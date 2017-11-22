@@ -1,16 +1,15 @@
 body {
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     text-align: center;
     background-image: url("../image/Gotham.jpg");
 
 }
 
 h1 {
-    color: white;
     text-align: center;
     text-shadow: 2px 2px black;
     font-family: magneto, serif;
-    color: darkgoldenrod;
+    color: #008C8C;
 }
 
     
