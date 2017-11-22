@@ -3,7 +3,7 @@ var valeur = 1;
 var valRad = 1;
 function ajoutQuestion() {
 
-	$('#addQuest').append("<br><div id='val"+valeur+"'><input type='text' placeholder='Votre question' id='question"+valeur+"'><br>"
+	$('#addQuest').append("<div id='val"+valeur+"'><br><input type='text' placeholder='Votre question' id='question"+valeur+"'><br>"
 	 + "<button class='btn btn-outline-primary' onclick=\"ajoutRadio('#val"+valeur+"', "+valeur+");\">ajouter une option</button>"
 	 + "<button class='btn btn-outline-danger' onclick='suppQuestion(val"+valeur+");'>supprimer cette question</button><br></div>");
 	
