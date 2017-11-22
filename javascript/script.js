@@ -7,13 +7,13 @@ function ajoutQuestion() {
 	 + "<button class='btn btn-outline-primary' onclick=\"ajoutRadio('#val"+i+"');\">ajouter une option</button>"
 	 + "<button class='btn btn-outline-danger' onclick='suppQuestion(val"+i+");'>supprimer cette question</button><br></div><br>");
 	
-
 	i++;
 	j++;
 }
 
 function ajoutRadio(elem){
-		$(elem).append('<input type="radio" class="onTouchePas" name="rad'+j+'[]"><input type="text"><br>');
+		$(elem)
+		.append('<input type="radio" class="onTouchePas" name="rad'+j+'[]"><input type="text" placeholder="choix de reponse"><br>');
 		
 	}
 
