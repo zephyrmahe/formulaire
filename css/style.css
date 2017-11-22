@@ -1,6 +1,6 @@
 body {
     background-repeat: repeat-y;
-    text-align: center;
+    /*text-align: center;*/
     background-image: url("../image/background1.jpg");
 
 }
@@ -30,7 +30,12 @@ input {
 #bouton1 {
     text-align: center;
 }
+#validForm {
+    position: absolute;
+    top: 10px;
+    right: 20px;
 
+}
 input.onTouchePas {
     width: 2%;
 }
