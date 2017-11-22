@@ -6,28 +6,31 @@ body {
 }
 
 h1 {
-    color: white;
+    color: #008C8C;
     text-align: center;
     text-shadow: 2px 2px black;
     font-family: magneto, serif;
-    color: darkgoldenrod;
 }
 
-	
+h1 a {
+        text-decoration: none;
+        color: #008C8C;
+}
 
 #addQuest {
     margin: 0 15% 0 15%;
     text-align: center;
-
-}   
+} 
+  
 input {
     width: 40%;
     text-align: center;
-} 
-#bouton1 {
+}
 
+#bouton1 {
     text-align: center;
 }
+
 input.onTouchePas {
     width: 2%;
 }
