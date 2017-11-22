@@ -24,10 +24,11 @@ function ajoutRadio(elem, radId){
 			+ '<button class="btn-danger" title="supprimer cette option" onclick="suppOption(option'+valRad+');">'
 			+'supprimer l\'option</button><br></div>'
 			);
-		valRad++;
-	}
 
-	function ajoutCheck(elem, radId){
+		valRad++;
+}
+
+function ajoutCheck(elem, radId){
 		$(elem)
 		.append(
 			'<div id="option'+valRad+'"><input type="checkbox" class="onTouchePas" name="rad'+radId+'">'
@@ -35,12 +36,14 @@ function ajoutRadio(elem, radId){
 			+ '<button class="btn-danger" title="supprimer cette option" onclick="suppOption(option'+valRad+');">'
 			+'supprimer l\'option</button><br></div>'
 			);
+
 		valRad++;
-	}
+}
 
 function suppQuestion(elem1){
 	$(elem1).remove();
 }
+
 function suppOption(elem2){
 	$(elem2).remove();
 }
