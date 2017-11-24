@@ -1,15 +1,15 @@
 body {
-    background-repeat: repeat-y;
-    /*text-align: center;*/
-    background-image: url("../image/background1.jpg");
-
+    background-repeat: no-repeat;
+    text-align: center;
+    background-image: url("../image/blanccristal.jpg");
+    
 }
 
 h1 {
-    color: #008C8C;
     text-align: center;
     text-shadow: 2px 2px black;
     font-family: magneto, serif;
+    color: darkgoldenrod;
 }
 
 h1 a {
